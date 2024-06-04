@@ -1,0 +1,38 @@
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+  }
+
+.btn {
+    font-size: inherit;
+    background-color: hsl(30, 100%, 50%);
+    padding: 20px 20px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  .btn:hover, .btn:focus {
+    background-color: hsl(30, 100%, 40%);
+  }
+  
+  .btn {
+    font-size: 35px;
+    margin-left: 50px;
+  }
+  
+  .btn:first-child {
+    margin-left: 0;
+  }
+
+  .div-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
